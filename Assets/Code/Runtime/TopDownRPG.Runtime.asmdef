@@ -1,0 +1,20 @@
+{
+    "name": "TopDownRPG.Runtime",
+    "rootNamespace": "TopDownRPG",
+    "references": [
+        "Unity.InputSystem",
+        "VContainer",
+        "UniTask",
+        "PrimeTween.Runtime",
+        "Unity.Localization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
