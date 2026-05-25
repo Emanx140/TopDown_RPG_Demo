@@ -1,0 +1,14 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainMenuButton" src="project://database/Assets/_Project/UI/UXML/MainMenuButton.uxml?fileID=9197481963319205126&amp;guid=eb1d68fc37a46674cb3412c995b8bdbe&amp;type=3#MainMenuButton"/>
+    <Style src="project://database/Assets/_Project/UI/USS/KenneyRPG.uss?fileID=7433441132597879392&amp;guid=ee8ec3e9843aff54eb646f75df2bb2a8&amp;type=3#KenneyRPG"/>
+    <ui:VisualElement name="main-menu-screen" class="main-menu-screen">
+        <ui:VisualElement name="main-menu-actions" class="main-menu-actions" style="height: 171px; position: relative; flex-direction: column; flex-basis: auto; flex-shrink: 1; align-self: auto; align-content: auto; justify-content: space-evenly;">
+            <ui:Instance template="MainMenuButton" name="play-button">
+                <AttributeOverrides element-name="main-menu-button-label" text="Play"/>
+            </ui:Instance>
+            <ui:Instance template="MainMenuButton">
+                <AttributeOverrides element-name="main-menu-button-label" text="Settings"/>
+            </ui:Instance>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

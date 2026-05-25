@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/USS/KenneyRPG.uss?fileID=7433441132597879392&amp;guid=ee8ec3e9843aff54eb646f75df2bb2a8&amp;type=3#KenneyRPG"/>
+    <ui:Button name="main-menu-button" text="">
+        <ui:VisualElement name="main-menu-button-diagonal" style="background-color: rgb(236, 144, 50);"/>
+        <ui:Label name="main-menu-button-label" text="Button" class="main-menu-button__label"/>
+    </ui:Button>
+</ui:UXML>

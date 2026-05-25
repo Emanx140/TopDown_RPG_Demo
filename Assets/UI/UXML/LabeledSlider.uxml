@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="../USS/KenneyRPG.uss"/>
+    <ui:VisualElement name="labeled-slider" class="rpg-labeled-slider">
+        <ui:VisualElement name="labeled-slider-header" class="rpg-labeled-slider__header">
+            <ui:Label name="labeled-slider-label" text="Volume" class="rpg-labeled-slider__label"/>
+            <ui:Label name="labeled-slider-value" text="100%" class="rpg-labeled-slider__value"/>
+        </ui:VisualElement>
+        <ui:Slider name="labeled-slider-control" low-value="0" high-value="1" value="1" show-input-field="false" class="rpg-labeled-slider__control"/>
+    </ui:VisualElement>
+</ui:UXML>
