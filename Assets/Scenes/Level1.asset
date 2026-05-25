@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1425cc4413c64f1cb2206946b989cb90, type: 3}
+  m_Name: Level1
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.Scenes.SceneReference
+  sceneAsset: {fileID: 102900000, guid: ece8bccbda7c2c74cbb98c980f92225d, type: 3}
+  sceneName: Level1
