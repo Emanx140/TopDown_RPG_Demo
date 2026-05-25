@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &498221671631647378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010590412104311700}
+  - component: {fileID: 5194845516314489355}
+  m_Layer: 0
+  m_Name: AudioService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1010590412104311700
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498221671631647378}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9043557613008827759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5194845516314489355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498221671631647378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62e15d5894b437c99ef901a8c77b90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.Audio.AudioService
+  initialPoolSize: 8
+  maxPoolSize: 24
+  defaultMaxSimultaneousPerClip: 4
+  mixerRoutes:
+  - <Channel>k__BackingField: 0
+    <MixerGroup>k__BackingField: {fileID: 24300002, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 1
+    <MixerGroup>k__BackingField: {fileID: -2890834388622181693, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 2
+    <MixerGroup>k__BackingField: {fileID: 2589756184082322407, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 3
+    <MixerGroup>k__BackingField: {fileID: 574294154877605321, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 4
+    <MixerGroup>k__BackingField: {fileID: -325733990074664277, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 5
+    <MixerGroup>k__BackingField: {fileID: 2885156179226023933, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 6
+    <MixerGroup>k__BackingField: {fileID: 7015236897886610114, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  - <Channel>k__BackingField: 7
+    <MixerGroup>k__BackingField: {fileID: -7360338741279864276, guid: a57652c5f8a5080448dd4b87c47e7c36, type: 2}
+  channelLimits:
+  - <Channel>k__BackingField: 0
+    <MaxSimultaneous>k__BackingField: 64
+  - <Channel>k__BackingField: 1
+    <MaxSimultaneous>k__BackingField: 1
+  - <Channel>k__BackingField: 2
+    <MaxSimultaneous>k__BackingField: 32
+  - <Channel>k__BackingField: 3
+    <MaxSimultaneous>k__BackingField: 4
+  - <Channel>k__BackingField: 4
+    <MaxSimultaneous>k__BackingField: 1
+  - <Channel>k__BackingField: 5
+    <MaxSimultaneous>k__BackingField: 32
+  - <Channel>k__BackingField: 6
+    <MaxSimultaneous>k__BackingField: 1
+  - <Channel>k__BackingField: 7
+    <MaxSimultaneous>k__BackingField: 1
+--- !u!1 &2272310864597753128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3535210076979847415}
+  - component: {fileID: 8459975103870793809}
+  m_Layer: 0
+  m_Name: PlayerInput
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3535210076979847415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272310864597753128}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9043557613008827759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8459975103870793809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2272310864597753128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8302d23a459940c48928042d50b35af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.Gameplay.PlayerInputReader
+  inputActions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  playerMapName: Player
+  uiMapName: UI
+  moveActionName: Move
+  sprintActionName: Sprint
+  pauseActionName: Cancel
+  primaryAbilityMapName: Player
+  primaryAbilityActionName: Attack
+  secondaryAbilityMapName: UI
+  secondaryAbilityActionName: RightClick
+  mobilityAbilityMapName: Player
+  mobilityAbilityActionName: Jump
+--- !u!1 &3980206613788921200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9043557613008827759}
+  - component: {fileID: 2738963767814668212}
+  - component: {fileID: 8460593354252633051}
+  m_Layer: 0
+  m_Name: BootstrapRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9043557613008827759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3980206613788921200}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3535210076979847415}
+  - {fileID: 1118844574178771431}
+  - {fileID: 1010590412104311700}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2738963767814668212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3980206613788921200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc106124960a1e34ba275829e8b399f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.GameLifetimeScope
+  parentReference:
+    TypeName: 
+  autoRun: 1
+  autoInjectGameObjects:
+  - {fileID: 3980206613788921200}
+  - {fileID: 2272310864597753128}
+  - {fileID: 498221671631647378}
+  sceneTransition: {fileID: 7358464248724726245}
+  audioService: {fileID: 0}
+--- !u!114 &8460593354252633051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3980206613788921200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afc182d48050b35438cd5bd0ada41bb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.Infrastructure.Bootstrapper
+  initialScene: {fileID: 11400000, guid: 3cc31646267684f4a8164e1ddf360fcc, type: 2}
+--- !u!1 &8586509481282562731
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1118844574178771431}
+  - component: {fileID: 7358464248724726245}
+  - component: {fileID: 7881733896912305354}
+  m_Layer: 0
+  m_Name: SceneTransition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1118844574178771431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586509481282562731}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9043557613008827759}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7358464248724726245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586509481282562731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc8a455e0974136b16bb059fcab49d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: TopDownRPG.Runtime::TopDownRPG.Scenes.ScreenFadeTransition
+  fadeOutDuration: 0.2
+  fadeInDuration: 0.25
+  document: {fileID: 7881733896912305354}
+  overlayElementName: fade-overlay
+--- !u!114 &7881733896912305354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8586509481282562731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 19102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.UIElements.UIDocument
+  m_PanelSettings: {fileID: 11400000, guid: 6d75112d3ec075a44b9e37dff5ba8d80, type: 2}
+  m_ParentUI: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: b56ef3cc416fbc24c86f5ac87b2d8deb, type: 3}
+  m_SortingOrder: 10000
+  m_Position: 0
+  m_WorldSpaceSizeMode: 1
+  m_WorldSpaceWidth: 1920
+  m_WorldSpaceHeight: 1080
+  m_PivotReferenceSize: 0
+  m_Pivot: 0
+  m_WorldSpaceCollider: {fileID: 0}
